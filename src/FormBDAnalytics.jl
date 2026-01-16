@@ -19,8 +19,8 @@ using TOML
 using UUIDs
 
 export Config, load_config
-export FormBDClient, fetch_collection, fetch_document
-export ColumnarStore, sync!, query, prompt_stats, time_series
+export FormBDClient, Document, fetch_collection, fetch_document, extract_prompt_scores, extract_timestamp, health_check
+export ColumnarStore, sync!, load!, query, stats, prompt_stats, prompt_distribution, time_series, contributors
 export serve
 
 include("config.jl")

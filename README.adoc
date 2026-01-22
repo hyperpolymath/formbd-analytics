@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: AGPL-3.0-or-later
+// SPDX-License-Identifier: PMPL-1.0-or-later
 = FormBD-Analytics
 :toc: macro
 :toc-title: Contents
@@ -174,6 +174,6 @@ julia --project=. -e 'using Pkg; Pkg.test()'
 
 == License
 
-AGPL-3.0-or-later
+PMPL-1.0-or-later
 
 Part of the FormBD ecosystem.

@@ -1,6 +1,6 @@
-; SPDX-License-Identifier: AGPL-3.0-or-later
+; SPDX-License-Identifier: PMPL-1.0-or-later
 ; FormBD-Analytics Project State
-; Reference: hyperpolymath/gitvisor/STATE.scm
+; Reference: hyperpolymath/git-hud/STATE.scm
 
 (state
   (metadata

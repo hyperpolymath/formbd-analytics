@@ -1,7 +1,7 @@
 # FormBD-Analytics Configuration Example
 # Copy to config.toml and adjust as needed
 
-[formbd]
+[lithoglyph]
 # FormBD HTTP API URL
 api_url = "http://localhost:8080"
 # Collections to sync for analytics

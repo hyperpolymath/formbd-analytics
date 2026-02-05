@@ -35,7 +35,7 @@ principles while enabling fast aggregations, rollups, and time-series analysis.
                                   │
                                   ▼ HTTP API
 ┌─────────────────────────────────────────────────────────────┐
-│        Consumers (formbd-studio, dashboards, reports)        │
+│        Consumers (lithoglyph-studio, dashboards, reports)        │
 └─────────────────────────────────────────────────────────────┘
 ----
 
@@ -99,7 +99,7 @@ GET /analytics/collections
 
 [source,toml]
 ----
-[formbd]
+[lithoglyph]
 api_url = "http://localhost:8080"
 collections = ["evidence", "claims"]
 
@@ -154,7 +154,7 @@ prompt_correlations(collection="evidence")
 
 [source,bash]
 ----
-cd formbd-analytics
+cd lithoglyph-analytics
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
 ----
 
